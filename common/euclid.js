@@ -26,8 +26,11 @@ const mod = (a, m) => {
   return res < 0 ? m + res : res
 }
 
+const lcm = (a, b) => a * b / gcd(Math.max(a, b), Math.min(a, b)).r
+
 module.exports = {
   gcd,
   inverse,
   mod,
+  lcm
 }
