@@ -1,3 +1,4 @@
+// The implementation based on @irisfffff solution
 const readToLines = require('../common/readToLines')
 const input = readToLines('./input.txt')
   .filter(Boolean)
